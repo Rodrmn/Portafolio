@@ -12,7 +12,7 @@ html, body{
 }
 
 body{
-background-image: url(../assets/img/elizabeth-gottwald-IpbnuyBWQqY-unsplash.webp);
+background-color: #db8582;
 background-size: cover;     
 background-repeat: no-repeat;
 background-position: center;
@@ -78,6 +78,3 @@ color: #666;
     margin-right:5px;
 }
 
-.navbar {
-    background-color: #7f2929;
-}
