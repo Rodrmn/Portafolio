@@ -1,0 +1,80 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+html, body{
+    height:  100%;
+    margin: 0;
+}
+
+body{
+background-color: #db8582;
+background-size: cover;     
+background-repeat: no-repeat;
+background-position: center;
+color: #ffffff
+}
+
+section{
+    padding: 1.5rem;
+}
+
+h2{
+    font-size: 5rem;
+    color: #333;
+    letter-spacing: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow:
+                0 0 5px #ae5050,
+                0 0 10px #ee8380,
+                0 0 15px #ffffff;
+}
+
+.texto{
+    font-family: "Questrial Static",  sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow:
+                0 0 5px #ffffff,
+                0 0 10px #ad320c,
+                0 0 15px #ece7e7;
+    
+}
+
+.footer{
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color:chocolate;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+}
+
+.footer-links a:hover {
+    color: #7260c5;
+
+}
+
+.footer-copyright {
+font-size: 14px;
+color: #666;
+
+}
+
+.bi {
+    font-size: 18px;
+    margin-right:5px;
+}
+
