@@ -1,0 +1,260 @@
+body {
+    background-color: #e2e1e1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #040272;
+    margin-bottom: 0;
+}
+
+.Principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(25, 25, 26, 0.65);
+    background-image: url(../img/Fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.parrafoprin {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+
+.btn1 {
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #040272;
+    border: 2px solid #040272;
+    padding: 0.6rem 1.2rem;
+    /* espacio interno */
+    font-size: 1rem;
+    /* tamaño legible */
+    font-weight: 600;
+    /* texto un poco más fuerte */
+    cursor: pointer;
+    /* cambia el cursor */
+    margin-top: 1rem;
+    /* separa del texto */
+    transition: all 0.3s ease;
+    /* animación suave */
+}
+
+.btn1:hover {
+    background-color: #040272;
+    color: #fff;
+    border: 2px solid #fff;
+    transform: scale(1.05);
+    /* efecto sutil al pasar el mouse */
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor .parrafo {
+    width: 50%;
+    /* ocupa la mitad del contenedor */
+    margin: 0 auto;
+    /* centra horizontalmente */
+    line-height: 1.6;
+    /* mejora la legibilidad */
+    font-size: 1rem;
+}
+
+.linea {
+    width: 40%;
+    margin: 0.5rem auto;
+    border: none;
+    height: 3px;
+    background-color: #040272;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    /* Para que sean responsivas */
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.tarjeta {
+    flex: 1 1 250px;
+    /* base 250px pero se ajustan */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Colores personalizados */
+.tarjeta.azul {
+    background-color: #040272;
+}
+
+.tarjeta.negra {
+    background-color: #222;
+}
+
+.services {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #fff;
+    color: #040272;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.services-subtitle {
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: #f7f7f7;
+    border: 2px solid #040272;
+    border-radius: 0.8rem;
+    padding: 2rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    background: #040272;
+    color: #fff;
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.service-card .icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.stats {
+    background: #040272;
+    /* Azul fuerte */
+    color: #fff;
+    padding: 3rem 1rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-card .icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.stat-card p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    opacity: 0.9;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #040272;
+}
+
+.portfolio p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
